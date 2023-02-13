@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME FOR TEA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Font+Name">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">TEA<span>.</span></a>
+        <div class="menutoggle"></div>
+        <ul class="navigation">
+            <li><a href="#ban">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="ban" id="ban">
+        <div class="content">
+            <h2>Always choose Good</h2>
+            <p>I must drink lots of tea or I connot work....</p>
+            <a href="#" class="btn">Our Menu</a>
+        </div>
+    </section> 
+    <section class="about" id="about">
+        <div class="row">
+           <div class="col50">
+                <h2 class="titletext"><span>A</span>bout Us</h2>
+                <p>Tea is one f the most popular drinks consumed worldwide with immense fervour.It is an aromatic beverage prepared by coking leaves of the Camellia sinensis plant in boiling water.<br><br>GREEN TEA<br><br>
+                It is produced by steaming freshly harvested leaves to produce a dry and flavoursome end products<br><br>BLACK TEA<br><br>Unlike ,green tea where the leaves are immediately steamed,to prepare black tea the leaves are first exposed to air for several hours.
+             </p>
+           </div>
+           <div class="col50">
+            <div class="imgbx">
+                <img src="pexels-photo-905485.jpeg" alt="">
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titletext">Our <span>M</span>enu</h2>
+            <p>Talk about the Appearance.Texture,and Taste of the Tea....<br><br>Beautiful in its Simplicity...<br><br>We have a collection of matching teaware</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgbx">
+                    <img src="oolong tea.jpeg" alt="" >
+                </div>
+                <div class="text">
+                    <h3>Special Tea</h3>
+                </div>
+            </div>
+        
+            <div class="box">
+                <div class="imgbx">
+                    <img src="blacktea.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Black Tea</h3>
+                </div>
+            </div>
+   
+            <div class="box">
+                <div class="imgbx">
+                    <img src="special tea.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Red lebel</h3>
+                </div>
+             </div>
+
+            <div class="box">
+                <div class="imgbx">
+                    <img src="lemon tea.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Lemon Tea</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbx">
+                    <img src="green tea.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Green Tea</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgbx">
+                    <img src="pexels-photo-980127.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Honey Tea</h3>
+                </div>
+            </div>
+        </div>
+            <div class="title">
+                <a href="#" class="btn">View All</a>
+            </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titletext"> <span>C</span>ontact Us</h2>
+            <p>Email us with any questions or inquiries or call 8977245430.<br><br>We would be happy to answer yur questions and set p a meeting with you. <BR><BR></p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputbox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputbox">
+                <textarea placeholder="Queries"></textarea>
+            </div>
+            <div class="inputbox">
+                <input type="Submit" value="Send">
+            </div>
+            
+            
+        </div>
+       
+        
+    </section>
+
+
+     <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky",window.scrollY > 0);
+        });
+     </script>
+</body>
+</html>
